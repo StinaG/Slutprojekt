@@ -1,3 +1,23 @@
 .navbg{
-	background: #FF0033;
+	background: #666666;
+}
+
+header{
+	
+	color: #FF0033;
+	font-family: Verdana;
+	font-size: 60;
+
+}
+
+.headertxt{
+
+}
+.tjejlogo{
+	width: 100px;
+}
+
+.knutlogo{
+	width: 70px;
+	
 }
