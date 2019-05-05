@@ -1,6 +1,7 @@
 .navbg{
-	background: #666666;
+	background: white;
 }
+
 
 header{
 	
@@ -22,6 +23,10 @@ header{
 }
 
 .laddaned {
+	background-color: #FF0033;
+	color: white;
+}
+.btnint{
 	background-color: #FF0033;
 	color: white;
 }
