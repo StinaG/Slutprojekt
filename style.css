@@ -26,8 +26,8 @@ header{
 .laddaned {
 	background-color: #FF0033;
 	color: white;
+	box-shadow: 10;
 }
 .btnint{
 	background-color: #FF0033;
 	color: white;
-}
