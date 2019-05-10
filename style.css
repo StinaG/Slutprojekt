@@ -10,6 +10,7 @@ header{
 	font-size: 90;
 }
 
+
 .navtxt{
 	color: #FF0033;
 
@@ -31,3 +32,21 @@ header{
 .btnint{
 	background-color: #FF0033;
 	color: white;
+}
+
+.kartabg{
+	background-color: lightgrey;
+	box-shadow: 10px;
+
+
+}
+
+.karta{
+	margin-left: 10px;
+	}
+
+.hittatxt{
+	color: black;
+	margin-left: 20px;
+	font-family: verdana;
+}
