@@ -1,18 +1,32 @@
+.bodybg{
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
 .navbg{
 	background: white;
+}
+	
+.navtxt{
+	color: #E80C94;	
+}
+
+.nav{
+	box-shadow: -2px -4px 9px;
+
 }
 
 
 header{
-	
-	color: #FF0033;
-	font-family: Verdana;
+	color: #E80C94;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 90;
 }
 
 
-.navtxt{
-	color: #FF0033;
+
+
 
 }
 .tjejlogo{
@@ -25,28 +39,107 @@ header{
 }
 
 .laddaned {
-	background-color: #FF0033;
+	background-color: #E80C94;
 	color: white;
-	box-shadow: 10;
+	
 }
 .btnint{
-	background-color: #FF0033;
+	background-color: black;
+	color: white;
+	box-shadow: -2px -4px 9px;
+}
+
+.infotxt{
+	color: black;
+}
+
+.infobg{
+	
+	box-shadow: 0 1px 50px rgba(0, 0, 0, .05);
+	margin: 10px;
+	padding: 15px;
+}
+.cardbg{
+	box-shadow: 0 1px 50px rgba(0, 0, 0, .05);
+	color: black;
+
+}
+
+.txtlink{
+	color: black;
+}
+
+.spel{
+	width: 1000px;
+	height:500px;
+	box-shadow: 0 1px 50px rgba(0, 0, 0, .05);
+	padding: 20px;
+}
+
+.btnspel1{
+	background-color: black;
+	color: white;
+}
+.btnspel2{
+	background-color: black;
+	color: white;
+}
+.btnspel3{
+	background-color: black;
 	color: white;
 }
 
 .kartabg{
 	background-color: lightgrey;
 	box-shadow: 10px;
-
-
 }
 
 .karta{
 	margin-left: 10px;
-	}
+}
 
 .hittatxt{
 	color: black;
 	margin-left: 20px;
-	font-family: verdana;
+	font-family: Verdana;
+	padding-left: 100px;
+}
+.btntek{
+	background-color: black;
+	color: white;
+}
+
+.kontaktbg{
+	background-color: #E80C94;
+}
+
+.jumbo{
+	height: 600px;
+	box-shadow: 0 1px 50px rgba(0, 0, 0, .05);
+	padding: 20px;
+
+}
+.frippesize{
+	height: 300px;
+	margin: center;
+}
+
+.footer{
+	background-color: #F3F5F4;
+	 
+	text-align: center;
+	color: #888;
+	padding: 20px;
+}
+.facebook{
+	width: 40px;
+}
+
+.instagram{
+	width: 50px;
+	
+}
+
+.twitter{
+	width: 40px;
 }
