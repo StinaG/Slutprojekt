@@ -9,22 +9,23 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-  <!--Header nedan, här ligger loggorna till Tjejhack och Knut Hahn-->
+  
   <title>TjejHack</title>
+  </head>
+  <body>
   <header class="tjejhack">
   </header>
-  <body>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
+  
     <!--Här nedan ligger navbaren-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbg nav">
-      <nav class="navbar navbg">
-        <div class=" navtxt" >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbg nav navflex">
+      <a class="navbar navbg">
+        <div class=" navtxt row justify-content-md-center" >
           <img src="img/tjejhackny.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
-          <h2 class="navtxt"> TJEJHACK</h2>
+          <h3 class="navtjej"> TJEJHACK</h3>
         </div>
-      </nav>
+      </a>
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -131,27 +132,21 @@
 
      <!--NEDAN PRESNTERAS DE OLIKA MENTORERNA. DET ÄR BARA ATT BYTA BILDER OCH INFO OM PERSONERNA. NU ÄR DET BARA DU FRIPPE AS YOU CAN SEE.-->
      <div class="container mentor rounded" id="mentorer">
-      <H1>ÅRETS MENTORER</H1>
+      <H2>VÅRA MENTORER</H2><br><br>
       <div class="row">
         <div class="col">
-          <img src="img/frippe.jpg" alt="..." class="rounded-circle frippesize" >
+          <img src="img/frippe.jpg" alt="..." class="rounded-circle mentorstorlek" ><br>
           <H4>Fredrik Johansson</H4>
-          <H6>Kort om personen. </H6>
-          <h6>Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. </h6>
         </div>
-        <div class="col">
-          <img src="img/frippe.jpg" alt="..." class="rounded-circle frippesize">
-          <H4>Fredrik Johansson</H4>
-          <H6>Kort om personen. </H6>
-          <h6>Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. </h6>
+        <div class="col"> <!--Det är lätt att byta bilder och namn på dessa, de som är nu är bara för utfyllnad-->
+          <img src="img/lissan.jpg" alt="..." class="rounded-circle mentorstorlek"><br>
+          <H4>Liselott Lilja</H4>
         </div>
-        <div class="col">
-          <img src="img/frippe.jpg" alt="..." class="rounded-circle frippesize">
-          <H4>Fredrik Johansson</H4>
-          <H6>Kort om personen. </H6>
-          <h6>Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. </h6>
+       <!--<div class="col">
+          <img src="img/stina.jpg" alt="..." class="rounded-circle mentorstorlek"><br>
+          <H4>Stina Gustafsson</H4> 0M MAN VILL LÄGGA TILL EN TREJDE PERSON --> 
+         
         </div>
-      </div>
     </div>
     <br><br><br>
 
@@ -246,18 +241,19 @@
               <div class="container">
                 <h3>HITTA HIT</h3>
                 <p class="lead">Blasius Königsgatan 27, <br>372 35 Ronneby</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2219.3553124530445!2d15.270559415948037!3d56.20281898067611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4656647d084020a3%3A0xe929fb8182a0b18d!2sKnut+Hahnsskolan!5e0!3m2!1ssv!2sse!4v1558610109760!5m2!1ssv!2sse"  frameborder="0" style="border:0" allowfullscreen></iframe>  </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2219.3553124530445!2d15.270559415948037!3d56.20281898067611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4656647d084020a3%3A0xe929fb8182a0b18d!2sKnut+Hahnsskolan!5e0!3m2!1ssv!2sse!4v1558610109760!5m2!1ssv!2sse" frameborder="0" style="border:0" allowfullscreen ></iframe>  </div>
               </div>
             </div>
           </div>
         </div>
       </article>
       <footer class="Footer element footer">
-        <img class="facebook" alt="..." src="img/fb.png">
-        <img class="instagram" alt="..." src="img/instagram.jpg"> 
-        <img class="twitter" alt="..." src="img/twitter.jpg"><bR>
-        <p> © Stina Gustafsson 2019.
-         Denna hemsidan är designad och kodad av Stina Gustafsson <br>
+       <a href="https://www.facebook.com/teknist/"> <img class="facebook" alt="..." src="img/fb.png"></a>
+        <a href="https://www.instagram.com/teknikprogrammet/"><img class="instagram" alt="..." src="img/instagram.jpg"></a> 
+        <a href="https://twitter.com/Teknikprogramm1"><img class="twitter" alt="..." src="img/twitter.jpg"></a>
+
+        <br>
+        <p>Denna hemsidan är designad och kodad av <a id="stinas" href="#"> © Stina Gustafsson</a> <br>
          TE16 Gymnasieskolan Knut Hahn</p> 
        </footer>
 
@@ -265,7 +261,7 @@
        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-       <script type="text/javascript" src="jquery-3.4.1.min"></script>
+       <script  src="jquery-3.4.1.min"></script>
        <script  src="script.js"></script>
 
 
